@@ -43,7 +43,7 @@ if __name__ == "__main__":
     PROMPT_QUERY = "\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
 
     # eval
-    N = 1
+    N = 2
     batch_size = 1
     cnt = 0
     all_outputs = []
