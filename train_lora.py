@@ -86,8 +86,7 @@ def get_peft_state_maybe_zero_3(named_params, bias):
 
 
 def cli(model_path):
-    from fastchat.modules.gptq import GptqConfig
-    from fastchat.serve.cli import chat_loop, SimpleChatIO
+    from fastchat.serve.cli import chat_loop, SimpleChatIO, GptqConfig
 
     chat_loop(
         model_path,
