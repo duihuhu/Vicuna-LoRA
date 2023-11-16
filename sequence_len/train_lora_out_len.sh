@@ -1,4 +1,4 @@
-deepspeed --include localhost:0,1,2,3 ./train_lora_mul_gpu.py \
+deepspeed --include localhost:0,1,2,3 ./train_lora.py \
   --model_name_or_path /workspace/Sequence-Scheduling/ckpts/vicuna-7b \
   --lora_r 8 \
   --lora_alpha 16 \
