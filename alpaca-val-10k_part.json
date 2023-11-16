@@ -11,5 +11,18 @@
                 "value": "1.Eat a balanced diet and make sure to include plenty of fruits and vegetables. \n2. Exercise regularly to keep your body active and strong. \n3. Get enough sleep and maintain a consistent sleep schedule."
             }
         ]
+    },
+    {
+        "id": "2",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat are the three primary colors?\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The three primary colors are red, blue, and yellow."
+            }
+        ]
     }
 ]
