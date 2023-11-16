@@ -3,7 +3,7 @@ deepspeed --include localhost:0,1,2,3 ./train_lora_out_len.py \
   --lora_r 8 \
   --lora_alpha 16 \
   --lora_dropout 0.05 \
-  --data_path /workspace/Sequence-Scheduling/data/alpaca-train-10k-instruct.json \
+  --data_path ../alpaca-train-10k-instruct_part.json \
   --bf16 False \
   --output_dir /workspace/Sequence-Scheduling/ckpts/vicuna-response-length-perception-module \
   --num_train_epochs 1 \
