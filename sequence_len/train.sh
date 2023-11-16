@@ -3,9 +3,9 @@ deepspeed --include localhost:0,1,2,3 ./train_lora.py \
   --lora_r 8 \
   --lora_alpha 16 \
   --lora_dropout 0.05 \
-  --data_path ./data/alpaca-train-10k-instruct.json \
+  --data_path /workspace/Sequence-Scheduling/data/alpaca-train-10k-instruct.json \
   --bf16 False \
-  --output_dir ./ckpts/vicuna-response-length-perception-module \
+  --output_dir /workspace/Sequence-Scheduling/ckpts/vicuna-response-length-perception-module \
   --num_train_epochs 1 \
   --per_device_train_batch_size 4 \
   --per_device_eval_batch_size 4 \
@@ -21,5 +21,5 @@ deepspeed --include localhost:0,1,2,3 ./train_lora.py \
   --logging_steps 1 \
   --tf32 False \
   --model_max_length 256 \
-  --deepspeed ./deepspeed-config.json \
+  --deepspeed ../deepspeed-config.json \
   --report_to none
