@@ -43,8 +43,8 @@ if __name__ == "__main__":
     PROMPT_QUERY = "\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
 
     # eval
-    N = 1
-    batch_size = 1
+    N = 9
+    batch_size = 2
     cnt = 0
     all_outputs = []
     gt_order_outputs = []
@@ -68,7 +68,7 @@ if __name__ == "__main__":
         output_ids = length_predictor.generate(
             input_ids=input_ids,
             attention_mask=attn_mask,
-            max_new_tokens=32,
+            max_new_tokens=512,
             do_sample=False,
         )
 
