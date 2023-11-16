@@ -3,8 +3,7 @@ import tqdm
 import transformers
 from fastchat.serve.inference import load_model
 from peft import PeftModel
-
-from . import utils
+import utils
 
 if __name__ == "__main__":
     # data
