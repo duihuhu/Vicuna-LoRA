@@ -44,7 +44,7 @@ if __name__ == "__main__":
 
     # eval
     N = 2
-    batch_size = 1
+    batch_size = 2
     cnt = 0
     all_outputs = []
     gt_order_outputs = []
@@ -77,6 +77,7 @@ if __name__ == "__main__":
         ]
         outputs = [int(x.strip()) for x in outputs]
         labels_max = [x["L_max"] for x in labels]
+        
         print("outputs: ",outputs)
 
         # collect results
