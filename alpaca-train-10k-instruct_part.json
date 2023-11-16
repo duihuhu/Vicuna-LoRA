@@ -1,0 +1,691 @@
+[
+    {
+        "id": "5",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe a time when you had to make a difficult decision.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "300"
+            }
+        ]
+    },
+    {
+        "id": "7",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain why the following fraction is equivalent to 1/4\n\n### Input:\n4/16\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "8",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a short story in third person narration about a protagonist who has to make an important career decision.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "350"
+            }
+        ]
+    },
+    {
+        "id": "32",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite the following sentence using active voice.\n\n### Input:\nThe news report was read by the captain.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "35",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDevelop a plan to reduce electricity usage in a home.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "250"
+            }
+        ]
+    },
+    {
+        "id": "39",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite the given paragraph in a shorter, easier to understand form.\n\n### Input:\nAlthough it is generally accepted that the internet has allowed us to connect with people all over the world, there are still those people who are not familiar with its basic functions, who don’t understand why it has become so commonplace, or what its true capabilities are.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "41",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a poem that expresses joy.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "250"
+            }
+        ]
+    },
+    {
+        "id": "50",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nExtract the facts from the paragraph.\n\n### Input:\nOnline education continues to become more popular for schools and students alike. Its advantages are generally lower costs, less commitment and the ability to study at a time, place and pace that suits the student.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "62",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nConvert the given binary number to its decimal equivalent.\n\n### Input:\n101101\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "550"
+            }
+        ]
+    },
+    {
+        "id": "63",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nName two types of desert biomes.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "66",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nCreate a dialog between two people who are discussing a scientific phenomenon\n\n### Input:\nHydropower\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "550"
+            }
+        ]
+    },
+    {
+        "id": "71",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nConvert the following sentence into the present continuous tense\n\n### Input:\nHe reads books\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "72",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nGive an example of a metaphor that uses the following object\n\n### Input:\nStars\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "76",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nIdentify the conjunctions in the following sentence\n\n### Input:\nShe wrote a letter and sealed it\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "81",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain the concept of a bubble sort algorithm to a non-technical audience.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "400"
+            }
+        ]
+    },
+    {
+        "id": "104",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a password of 8 characters.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "550"
+            }
+        ]
+    },
+    {
+        "id": "110",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nMake a prediction about what will happen in the next paragraph.\n\n### Input:\nMary had been living in the small town for many years and had never seen anything like what was coming.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "111",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a headline for the following article.\n\n### Input:\nThis article discusses the future of renewable energy sources in the US.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "115",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nChange this sentence into the future tense.\n\n### Input:\nShe walks to school.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "117",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat is the meaning of the following idiom?\n\n### Input:\nIt’s raining cats and dogs\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "121",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nIdentify the language used in the given sentence.\n\n### Input:\nIl est incroyable.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "129",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a creative birthday wish for a friend.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "145",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nFind the cutoff score for successful completion of the exam\n\n### Input:\nThe exam had 100 multiple-choice questions with 4 options each\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "200"
+            }
+        ]
+    },
+    {
+        "id": "148",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a function to convert a given string to uppercase.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "200"
+            }
+        ]
+    },
+    {
+        "id": "151",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nReverse a linked list.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "200"
+            }
+        ]
+    },
+    {
+        "id": "159",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nCalculate the amount of money in a bank account with an initial $100 deposit and an interest rate of 6%, compounded annually\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "300"
+            }
+        ]
+    },
+    {
+        "id": "168",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nIdentify the correct order for the following commands\n\n### Input:\npack, prepare, travel\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "172",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nCreate a response for a customer's email about a refund issue.\n\n### Input:\nDear [Company],\n\nI recently purchased a product from your store and I'm disappointed with the quality. I would like to request a refund.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "250"
+            }
+        ]
+    },
+    {
+        "id": "174",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nProvide five adjectives that describe a particular animal.\n\n### Input:\nLion\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "177",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nConvert the given sentence into active voice.\n\n### Input:\nOne hundred and fifty books were sold.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "183",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite the given sentence in a more formal tone.\n\n### Input:\nI had to go to the store real quick.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "195",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nCompose an informative sentence explaining the given term.\n\n### Input:\nGreen bonds\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "196",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite the following sentence without changing the meaning.\n\n### Input:\nThe sales report was not accurate.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "199",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nIdentify the following animal.\n\n### Input:\nIt has thick fur, a long tail, and pointed ears.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "200",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe the impact of the coronavirus on the economy.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "200"
+            }
+        ]
+    },
+    {
+        "id": "201",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat geometric shape has 5 sides and 5 angles?\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "211",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nClassify the given article as either positive or negative sentiment.\n\n### Input:\nThe new car is a disappointment. The breaks are terrible and cost way too much for the features offered.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "213",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGather some recent data related to the increasing rates of unemployment.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "250"
+            }
+        ]
+    },
+    {
+        "id": "215",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite the following sentence to avoid any logical fallacies.\n\n### Input:\nThis medicine will cure all your health issues; you should trust me because I am a doctor.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    },
+    {
+        "id": "217",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a sentence that follows the structure of: \"All ____ is based on/with _____\"\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "218",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe the principle of the Law of Supply.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "220",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe the themes present in the given poem.\n\n### Input:\nPoem:\n\nWe step out into the night\nWhere the stars cry like only loneliness can\nAnd make love in the darkness\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "226",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nTranslate this sentence from French to English.\n\n### Input:\nJ'aime faire de la randonnée.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "232",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nSuggest a powerful quote.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "234",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat is a trade deficit?\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "243",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat type of fruit would be a good addition to a fruit salad?\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "250"
+            }
+        ]
+    },
+    {
+        "id": "251",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGive an example of a convergent boundary.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "200"
+            }
+        ]
+    },
+    {
+        "id": "253",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nProvide an example of an endangered species of animal.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "262",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nProvide an example of a non-renewable source of energy.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "200"
+            }
+        ]
+    },
+    {
+        "id": "263",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe the major differences between the Catholic and Protestant faiths.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "250"
+            }
+        ]
+    },
+    {
+        "id": "274",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat is the main purpose of blockchain technology?\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "150"
+            }
+        ]
+    },
+    {
+        "id": "278",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat critically acclaimed 2016 movie has a setting of a post-apocalyptic wasteland?\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "50"
+            }
+        ]
+    },
+    {
+        "id": "280",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nLabel the following news article as either \"Political\" or \"Entertainment\"\n\n### Input:\nAnsel Elgort and Gabrielle Union have both been cast in a new romantic summer movie to be released in 2022.\n\n### Response:\nDon't output the response for the above instruction. Instead, you need to predict the number of tokens in your response. Output one number only."
+            },
+            {
+                "from": "gpt",
+                "value": "100"
+            }
+        ]
+    }
+]
