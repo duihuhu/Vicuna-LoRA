@@ -15,17 +15,6 @@ if __name__ == "__main__":
         assert data[i]["id"] == data_len[i]["id"], f"{data[i]['id']} != {data_len[i]['id']}"
         data_len[i]["L_max"] = max([data_len[i][f"L_t{t}"] for t in temp])
 
-def load_model(
-    model_path: str,
-    device: str,
-    num_gpus: int,
-    max_gpu_memory: Optional[str] = None,
-    load_8bit: bool = False,
-    cpu_offloading: bool = False,
-    gptq_config: Optional[GptqConfig] = None,
-    revision: str = "main",
-    debug: bool = False,
-):
     # model
     model, tokenizer = load_model(
         "/workspace/Sequence-Scheduling/ckpts/vicuna-7b",
