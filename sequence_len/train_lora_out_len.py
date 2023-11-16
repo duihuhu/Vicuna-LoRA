@@ -133,7 +133,7 @@ def train():
         model_args.model_name_or_path,
         cache_dir=training_args.cache_dir,
         device_map=device_map,
-        # load_in_8bit=True,
+        load_in_8bit=True,
         torch_dtype=torch.float16,
     )
     model = prepare_model_for_int8_training(model)
