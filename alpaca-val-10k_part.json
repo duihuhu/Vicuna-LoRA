@@ -1,54 +1,119 @@
 [
-  {
-      "id": "5",
-      "conversations": [
-          {
-              "from": "human",
-              "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe a time when you had to make a difficult decision.\n\n### Response:"
-          },
-          {
-              "from": "gpt",
-              "value": "I had to make a difficult decision when I was working as a project manager at a construction company. I was in charge of a project that needed to be completed by a certain date in order to meet the client’s expectations. However, due to unexpected delays, we were not able to meet the deadline and so I had to make a difficult decision. I decided to extend the deadline, but I had to stretch the team’s resources even further and increase the budget. Although it was a risky decision, I ultimately decided to go ahead with it to ensure that the project was completed on time and that the client’s expectations were met. The project was eventually successfully completed and this was seen as a testament to my leadership and decision-making abilities."
-          }
-      ]
-  },
-  {
-      "id": "7",
-      "conversations": [
-          {
-              "from": "human",
-              "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain why the following fraction is equivalent to 1/4\n\n### Input:\n4/16\n\n### Response:"
-          },
-          {
-              "from": "gpt",
-              "value": "The fraction 4/16 is equivalent to 1/4 because both numerators and denominators are divisible by 4. Dividing both the top and bottom numbers by 4 yields the fraction 1/4."
-          }
-      ]
-  },
-  {
-      "id": "8",
-      "conversations": [
-          {
-              "from": "human",
-              "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a short story in third person narration about a protagonist who has to make an important career decision.\n\n### Response:"
-          },
-          {
-              "from": "gpt",
-              "value": "John was at a crossroads in his life. He had just graduated college and was now facing the big decision of what career to pursue. After much deliberation, he decided that he wanted to be an accountant and help the financially disadvantaged. He had always been good with numbers and enjoyed seeing the tangible results of his work. \n\nJohn enrolled in accounting courses and initially found it quite challenging. He had to learn multiple systems and regulations quickly, but he worked hard and eventually excelled in his studies. After a few years, John started working at an accounting firm in his city. He was eager to put his knowledge of taxes and accounting to use in a real-world setting.\n\nJohn loved his job, as it let him express his creativity in finding strategies to save his clients money. After a few years at the firm, he became a senior accountant and was asked to manage bigger and more challenging cases. He was now a respected figure in the financial industry, but he still remembers when he was just a recent college graduate, unsure of the direction in which his life would take him."
-          }
-      ]
-  },
-  {
-      "id": "32",
-      "conversations": [
-          {
-              "from": "human",
-              "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite the following sentence using active voice.\n\n### Input:\nThe news report was read by the captain.\n\n### Response:"
-          },
-          {
-              "from": "gpt",
-              "value": "The captain read the news report."
-          }
-      ]
-  }
+    {
+        "id": "1",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGive three tips for staying healthy.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "1.Eat a balanced diet and make sure to include plenty of fruits and vegetables. \n2. Exercise regularly to keep your body active and strong. \n3. Get enough sleep and maintain a consistent sleep schedule."
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat are the three primary colors?\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The three primary colors are red, blue, and yellow."
+            }
+        ]
+    },
+    {
+        "id": "12",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat is the capital of France?\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The capital of France is Paris."
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDiscuss the causes of the Great Depression\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The Great Depression was a severe global economic downturn that lasted from 1929 to 1939. It was caused by several factors, including the stock market crash of 1929, structural weaknesses in the economy, low consumer spending, high unemployment, and a lack of confidence in the banking system. Other contributing factors included overproduction of commodities, reliance on borrowing to finance investments, agricultural overproduction, and a decrease in international trade."
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nReverse engineer this code to create a new version\n\n### Input:\ndef factorialize(num):\n  factorial = 1\n  for i in range(1, num):\n    factorial *= i\n  \n  return factorial\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "def factorialize(num):\n  factorial = 1\n  for i in range(num, 0, -1):\n    factorial *= i\n  \n  return factorial"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nTranscribe the recording into text.\n\n### Input:\nRecording about the history of Waterloo\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The Battle of Waterloo, fought on June 18, 1815, was the last major battle of the Napoleonic Wars. It marked the end of Napoleon Bonaparte's rule. The battle was fought between Napoleon Bonaparte's French forces and an allied force of British, Dutch, Belgian and Prussian troops, led by the Duke of Wellington. It was fought near the town of Waterloo in the former Austrian Netherlands, now present-day Belgium. The battle was a defeat for Napoleon's forces and ended Napoleon's rule over France. Napoleon himself was exiled to St. Helena, where he would die in 1821. The battle marked the end of French domination of Europe and the beginning of a period of peace in the region. It was also the last major battle of the Napoleonic Wars and is remembered as one of the most important battles in history. The victory of the allied forces at Waterloo helped to bring an end to French imperial ambitions in Europe. It also established the British as one of the most powerful nations in Europe. The battle was fought with a combination of infantry, cavalry, and artillery tactics, and showed the beginning of the changing nature of warfare. Although the French forces greatly outnumbered the allies, their strategic and tactical mistake led to the loss of the battle. This defeat signaled the end of French imperial power in Europe. The legacy of Waterloo still stands today, and it cemented the British Empire's position for the next one hundred years."
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain the process of cellular respiration in plants.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Cellular respiration in plants is a complex process in which the plant converts glucose into usable energy. The process begins when the plant takes in carbon dioxide from the environment and combines it with water to form glucose molecules using the energy from sunlight. This glucose is then broken down into simpler molecules of carbon dioxide and water. During this process, the energy released is used to produce adenosine triphosphate (ATP) molecules. ATP is used by the plant to power other processes, such as growth and reproduction. Additionally, the ATP can also be broken down further to produce heat energy, which helps to sustain the plant's temperature. The carbon dioxide and water molecules produced in the process are then released back into the environment to complete the cycle."
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nOutline the consequences of deforestation.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Deforestation is the process of clearing and removing forests. The consequences of deforestation can include soil erosion, reduced water quality, decreased biodiversity, increased carbon dioxide in the atmosphere and loss of habitat for wildlife. Soil erosion occurs when the trees that help retain water and soil are removed, leading to soil particles being washed away. This can cause siltation in rivers and streams, affecting water quality and leading to flooding. Additionally, when trees are removed, wildlife lose their habitat. This can cause species to become endangered, leading to further loss of biodiversity. Deforestation can also lead to increased carbon dioxide in the atmosphere as there are fewer trees to take up the gas during photosynthesis, which can contribute to climate change."
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain why the given definition is wrong.\n\n### Input:\nA mole is an animal that lives underground.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The definition is wrong because a mole is actually a small mammal that lives above ground and feeds on insects. It is most distinguishable by its long snout and wide, paddle-like feet. It does, however, often dig burrows in which it lives and shelters."
+            }
+        ]
+    }
 ]
