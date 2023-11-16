@@ -75,9 +75,9 @@ if __name__ == "__main__":
         outputs = [
             tokenizer.decode(x[l_prompt:], skip_special_tokens=True) for x in output_ids
         ]
-        print(outputs)
         outputs = [int(x.strip()) for x in outputs]
         labels_max = [x["L_max"] for x in labels]
+        print("outputs: ",outputs)
 
         # collect results
         all_outputs.extend(outputs)
