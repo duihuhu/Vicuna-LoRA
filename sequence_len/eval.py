@@ -26,6 +26,7 @@ if __name__ == "__main__":
     )
     tokenizer = transformers.AutoTokenizer.from_pretrained(
         "/workspace/Sequence-Scheduling/ckpts/vicuna-7b",
+        model_max_length=256,
         padding_side="right",
         use_fast=False,
     )
@@ -75,10 +76,11 @@ if __name__ == "__main__":
         outputs = [
             tokenizer.decode(x[l_prompt:], skip_special_tokens=True) for x in output_ids
         ]
+        print("outputs: ",outputs)
+        
         outputs = [int(x.strip()) for x in outputs]
         labels_max = [x["L_max"] for x in labels]
         
-        print("outputs: ",outputs)
 
         # collect results
         all_outputs.extend(outputs)
