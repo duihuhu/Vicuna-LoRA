@@ -68,7 +68,7 @@ if __name__ == "__main__":
         output_ids = length_predictor.generate(
             input_ids=input_ids,
             attention_mask=attn_mask,
-            max_new_tokens=32,
+            max_new_tokens=512,
             do_sample=False,
         )
 
