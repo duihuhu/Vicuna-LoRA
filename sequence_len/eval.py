@@ -30,7 +30,7 @@ if __name__ == "__main__":
         use_fast=False,
     )
     tokenizer.pad_token = tokenizer.unk_token
-    # tokenizer.padding_side = "left"
+    tokenizer.padding_side = "left"
 
     # LORA
     load_lora = "/workspace/Sequence-Scheduling/ckpts/lora"
