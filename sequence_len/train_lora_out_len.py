@@ -203,8 +203,8 @@ def train():
         apply_lora(model_args.model_name_or_path, model_path, lora_path)
 
         # generate
-        print("==== start chatting ===")
-        cli(model_path)
+        # print("==== start chatting ===")
+        # cli(model_path)
 
 
 if __name__ == "__main__":
