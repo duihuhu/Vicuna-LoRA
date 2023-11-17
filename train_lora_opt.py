@@ -165,8 +165,8 @@ def train():
         model.model_parallel = True
     print("data_args ", data_args)
     data_module = make_supervised_data_module(tokenizer=tokenizer, data_args=data_args)
-    for d in data_module['train_dataset']:
-        print(d)
+    # for d in data_module['train_dataset']:
+    #     print(d)
     trainer = Trainer(
         model=model, tokenizer=tokenizer, args=training_args, **data_module
     )
