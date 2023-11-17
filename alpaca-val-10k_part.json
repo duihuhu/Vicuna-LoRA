@@ -24,4 +24,889 @@
                 "value": "The three primary colors are red, blue, and yellow."
             }
         ]
-    }]
+    },
+    {
+        "id": "12",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat is the capital of France?\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The capital of France is Paris."
+            }
+        ]
+    },
+    {
+        "id": "14",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDiscuss the causes of the Great Depression\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The Great Depression was a severe global economic downturn that lasted from 1929 to 1939. It was caused by several factors, including the stock market crash of 1929, structural weaknesses in the economy, low consumer spending, high unemployment, and a lack of confidence in the banking system. Other contributing factors included overproduction of commodities, reliance on borrowing to finance investments, agricultural overproduction, and a decrease in international trade."
+            }
+        ]
+    },
+    {
+        "id": "18",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nReverse engineer this code to create a new version\n\n### Input:\ndef factorialize(num):\n  factorial = 1\n  for i in range(1, num):\n    factorial *= i\n  \n  return factorial\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "def factorialize(num):\n  factorial = 1\n  for i in range(num, 0, -1):\n    factorial *= i\n  \n  return factorial"
+            }
+        ]
+    },
+    {
+        "id": "24",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nTranscribe the recording into text.\n\n### Input:\nRecording about the history of Waterloo\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The Battle of Waterloo, fought on June 18, 1815, was the last major battle of the Napoleonic Wars. It marked the end of Napoleon Bonaparte's rule. The battle was fought between Napoleon Bonaparte's French forces and an allied force of British, Dutch, Belgian and Prussian troops, led by the Duke of Wellington. It was fought near the town of Waterloo in the former Austrian Netherlands, now present-day Belgium. The battle was a defeat for Napoleon's forces and ended Napoleon's rule over France. Napoleon himself was exiled to St. Helena, where he would die in 1821. The battle marked the end of French domination of Europe and the beginning of a period of peace in the region. It was also the last major battle of the Napoleonic Wars and is remembered as one of the most important battles in history. The victory of the allied forces at Waterloo helped to bring an end to French imperial ambitions in Europe. It also established the British as one of the most powerful nations in Europe. The battle was fought with a combination of infantry, cavalry, and artillery tactics, and showed the beginning of the changing nature of warfare. Although the French forces greatly outnumbered the allies, their strategic and tactical mistake led to the loss of the battle. This defeat signaled the end of French imperial power in Europe. The legacy of Waterloo still stands today, and it cemented the British Empire's position for the next one hundred years."
+            }
+        ]
+    },
+    {
+        "id": "31",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain the process of cellular respiration in plants.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Cellular respiration in plants is a complex process in which the plant converts glucose into usable energy. The process begins when the plant takes in carbon dioxide from the environment and combines it with water to form glucose molecules using the energy from sunlight. This glucose is then broken down into simpler molecules of carbon dioxide and water. During this process, the energy released is used to produce adenosine triphosphate (ATP) molecules. ATP is used by the plant to power other processes, such as growth and reproduction. Additionally, the ATP can also be broken down further to produce heat energy, which helps to sustain the plant's temperature. The carbon dioxide and water molecules produced in the process are then released back into the environment to complete the cycle."
+            }
+        ]
+    },
+    {
+        "id": "34",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nOutline the consequences of deforestation.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Deforestation is the process of clearing and removing forests. The consequences of deforestation can include soil erosion, reduced water quality, decreased biodiversity, increased carbon dioxide in the atmosphere and loss of habitat for wildlife. Soil erosion occurs when the trees that help retain water and soil are removed, leading to soil particles being washed away. This can cause siltation in rivers and streams, affecting water quality and leading to flooding. Additionally, when trees are removed, wildlife lose their habitat. This can cause species to become endangered, leading to further loss of biodiversity. Deforestation can also lead to increased carbon dioxide in the atmosphere as there are fewer trees to take up the gas during photosynthesis, which can contribute to climate change."
+            }
+        ]
+    },
+    {
+        "id": "44",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain why the given definition is wrong.\n\n### Input:\nA mole is an animal that lives underground.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The definition is wrong because a mole is actually a small mammal that lives above ground and feeds on insects. It is most distinguishable by its long snout and wide, paddle-like feet. It does, however, often dig burrows in which it lives and shelters."
+            }
+        ]
+    },
+    {
+        "id": "48",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDesign an app for a delivery company.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The app should allow customers to order items from local businesses and nearby store, place delivery requests with detailed delivery requirements, and track their orders. It should also allow customers to easily find and pay for services. The app should allow businesses to manage orders, track deliveries and drivers, set delivery boundaries, and set prices. It should also have features to help businesses promote their products and services, as well as options to provide customer feedback and support."
+            }
+        ]
+    },
+    {
+        "id": "53",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nConvert from celsius to fahrenheit.\n\n### Input:\nTemperature in Celsius: 15\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Temperature in Fahrenheit: 59"
+            }
+        ]
+    },
+    {
+        "id": "54",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nArrange the given numbers in ascending order.\n\n### Input:\n2, 4, 0, 8, 3\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "0, 2, 3, 4, 8"
+            }
+        ]
+    },
+    {
+        "id": "70",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nConstruct an argument to defend the following statement\n\n### Input:\nAlternative energy sources are critical to solving the climate crisis\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Alternative energy sources are absolutely vital in order to mitigate the most detrimental impacts of climate change. As the world transitions away from fossil fuels and towards more sustainable sources of energy, such as wind, solar, and hydropower, we can reduce the number of greenhouse gases in the atmosphere and prevent further warming of our planet. Additionally, using renewable and alternative energies sources will create thousands of jobs and can help to create a healthy, stable economy. Investing in alternative energy sources is a sound decision and a necessary step if we want to effectively address the climate crisis."
+            }
+        ]
+    },
+    {
+        "id": "82",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nClassify the following incident as a breach of protocol. Output 1 for breach, and 0 for no breach.\n\n### Input:\nUsing a school laptop for personal use\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "1"
+            }
+        ]
+    },
+    {
+        "id": "84",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a list of methods to reduce food waste.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "- Shop smarter and only buy what you need.\n- Save leftovers for later and freeze them if necessary. \n- Monitor expiration dates and consume items before they go bad.\n- Participate in community or public food sharing initiatives.\n- Compost leftover food scraps.\n- Reuse containers, jars, and bags.\n- Make use of restaurant discounts to reduce over-ordering. \n- Donate foods that have short expiration dates to local food banks. \n- Buy more produce that is close to the expiration date and prepare it soon.\n- Order small portions while dining out.\n- Educate yourself and others about food waste.\n- Plan meals in advance and base your grocery list on the meals. \n- Store food correctly to reduce spoilage.\n- Make sure your fridge is at the right temperature.\n- Have a system to track leftovers in the fridge. \n- Eat all edible parts of food, including stems and skins.\n- Use creative recipes to use the entire food item.\n- Use food that would otherwise be thrown away for animal feed.\n- Take part in campaigns to make food sustainability an issue."
+            }
+        ]
+    },
+    {
+        "id": "86",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain the concept of a linear regression model using simple language.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "A linear regression model is a type of machine learning model that can be used to predict or estimate the value of a continuous numerical variable from a set of input variables. In this model, a line is fitted to a set of data points such that the sum of the squared distance of the data points from the line is minimized. This line of best fit can then be used to estimate the value of the output variable based on the values of the input variables."
+            }
+        ]
+    },
+    {
+        "id": "87",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nConstruct a list of tips to help reduce stress.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "- Take a time out and acquire some rest when feeling overwhelmed. \n- Make time for yourself and learn to relax. \n- Exercise regularly and get plenty of sleep. \n- Listen to music you like, or take a warm bath. \n- Stick to a healthy diet full of essential vitamins and minerals.\n- Reach out to friends and family for support.\n- Try aromatherapy or yoga. \n- Do something creative like drawing, painting, or writing. \n- Engage in activities that bring you joy and peace of mind. \n- Avoid drugs or excessive amounts of alcohol. \n- Practice deep breathing and progressive muscle relaxation. \n- Take up a new hobby to stay occupied. \n- Break big tasks down into smaller, more manageable tasks. \n- Practice positive self-talk to keep your morale high. \n- Talk to a therapist or trusted mentor if necessary. \n- Make time for fun activities and social events. \n- Prioritize tasks and create a weekly schedule. \n- Create a plan of action and identify solutions to problems. \n- Learn to forgive yourself and others."
+            }
+        ]
+    },
+    {
+        "id": "89",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nCreate a Twitter post to promote your new product.\n\n### Input:\nAlisha's All Natural Jam\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Introducing Alisha's All Natural Jam, handmade with love using only the finest ingredients! Get ready for a delicious treat that will give your tastebuds a flavor explosion! Try our five amazing flavors: Strawberry, Blueberry, Peach, Raspberry, and Blackberry. Buy now and snack with the world! #snacktime #allnatural #jam #tastebuds #freshfruit #homemade #delicious #salttw"
+            }
+        ]
+    },
+    {
+        "id": "90",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nGiven the following input, classify the verb as transitive or intransitive.\n\n### Input:\nimprove\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Transitive."
+            }
+        ]
+    },
+    {
+        "id": "91",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a list of marketing strategies to promote a new mobile app.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "- Implement paid campaigns on social media platforms.\n- Utilize influencer marketing.\n- Reach out to tech bloggers and websites.\n- Share the app through word of mouth among friends.\n- Create demo videos and tutorials to explain the app's features.\n- Offer discounts and special incentives to early adopters.\n- Build a basic website to explain the app's purpose and features. \n- Take advantage of app store optimization techniques.\n- Send out emails and newsletters to inform new users about the app.\n- Aim for awards and good reviews on the app store.\n- Include the app link in your email signature.\n- Try promotional press releases and campaigns.\n- Encourage users to rate and review the app on the app store.\n- Leverage user-generated content to your advantage. \n- Integrate the app with existing or popular apps.\n- Hold giveaways or contests to drive engagement.\n- Feature the app on your company's website and blog.\n- Cross-promote the app with other apps, websites, and social media platforms. \n- Create promotional content such as blogs and podcasts."
+            }
+        ]
+    },
+    {
+        "id": "93",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nGive a description of the following customer segment.\n\n### Input:\nOnline shoppers in the US aged between 18-25\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "This customer segment consists of online shoppers in the US aged between 18-25. They are typically young adults who are tech-savvy and prefer to shop online for convenience and variety. They often shop for a variety of items, ranging from clothing to electronics and are comfortable using different payment methods such as credit or debit cards and digital wallets."
+            }
+        ]
+    },
+    {
+        "id": "96",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nTranslate the following phrase into French.\n\n### Input:\nI miss you\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Je te manque."
+            }
+        ]
+    },
+    {
+        "id": "97",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain what an API is.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "API stands for Application Programming Interface. It is a set of instructions or programming instructions that allow two applications to communicate and exchange data with each other. APIs provide a way for developers to access and manipulate data and services offered by other applications or platforms. They are an essential part of modern web development and allow developers to develop complex applications and websites using modular components."
+            }
+        ]
+    },
+    {
+        "id": "99",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nFind the capital of Spain.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The capital of Spain is Madrid."
+            }
+        ]
+    },
+    {
+        "id": "105",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nCreate a web page about robotics.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The web page should include an introduction to robotics, covering what it is and how it can be applied in various industries. It should also include a section on the history of robotics, an overview of major advances in the field, and current trends. Information about the different types of robots and their applications should be included, as well as links to resources for further research."
+            }
+        ]
+    },
+    {
+        "id": "108",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a list of present continuous verbs.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Running, eating, sleeping, calling, texting, working, reading, watching, writing, listening, playing, cooking, shopping, dancing, studying, walking, driving, flying, jumping, laughing."
+            }
+        ]
+    },
+    {
+        "id": "109",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nThink of a phrase or idiom containing the word \"sleep\".\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Sleep like a log."
+            }
+        ]
+    },
+    {
+        "id": "114",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite this sentence using the third person point of view.\n\n### Input:\nI went to the store.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "He/She went to the store."
+            }
+        ]
+    },
+    {
+        "id": "119",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nIs the sentence grammatically correct?\n\n### Input:\nThe boy was playing with her toys.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Yes, the sentence is grammatically correct."
+            }
+        ]
+    },
+    {
+        "id": "120",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nClassify the relationship between John and Mary.\n\n### Input:\nJohn and Mary are siblings.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "John and Mary are brother and sister."
+            }
+        ]
+    },
+    {
+        "id": "122",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate a summary of the given article.\n\n### Input:\nBetween 1989 and 2019, the size of the U.S. economy, measured in terms of the gross domestic product (GDP), more than doubled. The growth was faster than in the prior two decades, driven in part by the dramatic expansion of the information technology sector in the 1990s and early 2000s, gains in worker productivity and strong consumer demand, and government investments in research and development.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The U.S. economy more than doubled in size between 1989 and 2019, largely due to the rise of the information technology sector, improvements in worker productivity and consumer demand, and government investments. This growth was faster than in the prior two decades."
+            }
+        ]
+    },
+    {
+        "id": "123",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nConver the temperature from Fahrenheit to Celsius.\n\n### Input:\n94F\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "34.4C"
+            }
+        ]
+    },
+    {
+        "id": "131",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nFind the solution to the quadratic equation.\n\n### Input:\n3x² + 7x - 4 = 0\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The solution of the quadratic equation is x = -4 and x = 1/3."
+            }
+        ]
+    },
+    {
+        "id": "135",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nCompose a five word sentence describing your day.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Today was an amazing day."
+            }
+        ]
+    },
+    {
+        "id": "140",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nAnalyze the following sentence and find the direct object.\n\n### Input:\nShe wrote a book.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The direct object of the sentence is \"book\"."
+            }
+        ]
+    },
+    {
+        "id": "153",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDesign an algorithm to find the maximum profit of a stock buy and sell?\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "def maxProfit(prices):\n    min_price = float('inf')\n    max_profit = 0\n\n    for price in prices:\n        min_price = min(min_price, price) \n        profit = price - min_price\n        max_profit = max(max_profit, profit)\n\n    return max_profit"
+            }
+        ]
+    },
+    {
+        "id": "158",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nFind the maximum profit that can be earned from a given sequence of transactions?\n\n### Input:\narr = [100, 180, 260, 310, 40, 535, 695]\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "865"
+            }
+        ]
+    },
+    {
+        "id": "166",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nSummarize the following article\n\n### Input:\nhttps://www.nytimes.com/2010/07/05/business/global/05phone.html\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "This article discusses mobile phones and their unprecedented influence on different aspects of the global economy. After analyzing data from several countries, the article found that mobile phones have enabled economic growth, improved access to financial services, and created a platform for innovation. Mobile phones have also helped reduce poverty and corruption, and have opened the door for new business models."
+            }
+        ]
+    },
+    {
+        "id": "181",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nClassify the given input as either a poem, story, or song.\n\n### Input:\nOnce upon a midnight dreary, while I pondered, weak and weary.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Poem"
+            }
+        ]
+    },
+    {
+        "id": "182",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nCreate a title for the following description.\n\n### Input:\nA story about a journey of self-discovery by a young girl.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The Road to Finding Myself"
+            }
+        ]
+    },
+    {
+        "id": "187",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nCategorize the following text into one of the two sentiment classes: positive or negative.\n\n### Input:\nI didn't like the product very much because it was too slow and not user friendly.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Negative."
+            }
+        ]
+    },
+    {
+        "id": "188",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nSummarize the paragraph into a sentence.\n\n### Input:\nWhen buying furniture, it's important to take into account the overall look and feel of the space. That means that you should ask yourself if the pieces you are selecting are a good match for the existing furnishings as well as what you imagine the overall style to be.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Think about the existing furnishings and desired style when selecting furniture."
+            }
+        ]
+    },
+    {
+        "id": "197",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat's the output of this code?\n\n### Input:\nx = [1, 2, 3, 4]\ny = [i**2 for i in x]\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "y = [1, 4, 9, 16]"
+            }
+        ]
+    },
+    {
+        "id": "205",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a short story about a day in the life of a software engineer.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "John was a software engineer and had been coding for the past 5 years. Every day he woke up early to tackle the day ahead. He would start off with a quick breakfast before diving into the world of coding, creating new projects and fixing existing bugs. After a few hours of coding, he would take a break and eat lunch at his desk, discussing new ideas with his colleagues and brainstorming solutions to any tricky problems they had encountered. Afternoon would roll in and John was focussed on his code, powering through the most complex issues while keeping a sharp eye out for potential improvements. His day would finish with a bit of light reading, studying new coding languages, to ensure he was up to date with the latest industry advancements. And with that, his day was complete."
+            }
+        ]
+    },
+    {
+        "id": "227",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nGenerate the third term in the sequence 2, 5, 9, 14.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "18"
+            }
+        ]
+    },
+    {
+        "id": "238",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nProvide the lyrics for the song titled “Yesterday”\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Yesterday, all my troubles seemed so far away \nNow it looks as though they're here to stay \nOh, I believe in yesterday \nSuddenly, I'm not half the man I used to be \nThere's a shadow hanging over me \nOh, yesterday came suddenly"
+            }
+        ]
+    },
+    {
+        "id": "240",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nEdit the following sentence so that it has correct grammar.\n\n### Input:\nI were just going to the store\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "I was just going to the store."
+            }
+        ]
+    },
+    {
+        "id": "242",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nConstruct a sentence using the phrase \"every day\".\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "I do something new every day."
+            }
+        ]
+    },
+    {
+        "id": "244",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe in a few words what makes a good leader.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "A good leader is motivated, confident, persuasive, inspiring, organized, and reliable."
+            }
+        ]
+    },
+    {
+        "id": "249",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nName a natural process which occurs in food preservation.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "A natural process which occurs in food preservation is fermentation."
+            }
+        ]
+    },
+    {
+        "id": "252",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nFollow the law of supply and demand, describe what would happen to the price of a good if the demand increased.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "If the demand for a good increases, the price of the good will rise in order to balance the demand with the available supply. This is because when demand exceeds supply, prices must increase in order to ration resources and keep supplies from running out."
+            }
+        ]
+    },
+    {
+        "id": "264",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat is the process of photosynthesis and why is it important?\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Photosynthesis is the process by which plants convert sunlight into food energy. During this process, the plant takes in carbon dioxide from the air and combines it with water to create glucose and oxygen. This glucose is then used to produce energy for the plant and oxygen, which is released into the air. Photosynthesis is important as it provides a major source of food energy for living organisms, and is also responsible for the upkeep of the earth's atmosphere."
+            }
+        ]
+    },
+    {
+        "id": "265",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a 250 word essay about Coral Reef Conservation\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Coral reefs are among the most diverse and beautiful ecosystems and they are in danger of being destroyed by human activities, pollution and climate change. As a result, it is important to protect these valuable environments by implementing conservation measures. To gain a better understanding of the choices and strategies for protecting coral reefs, it is important to understand the ecology and structure of the environments, the threats, and the benefits that conservation provides. \n\nCoral reefs are complex and highly structured ecosystems where species interact and co-evolve. They are made of colonies of small invertebrate animals called corals that form intricate networks and canoes. In addition to being biologically and ecologically important, coral reefs provide important benefits such as food, coastal protection, and protection from extreme weather events. \n\nUnfortunately, human activities have caused significant damage to coral reefs all over the world. The most significant threats are overfishing, coastal development, water pollution and climate change. Global warming has caused coral bleaching which occurs when corals become stressed and expel the algae living inside them which can be fatal. It is also important to note that organic pollutants and sediment discharged into the water can smother and damage coral reefs.\n\nIn order to protect these valuable ecosystems, there are several key strategies that must be implemented. The most important is reducing pollution by controlling agricultural runoff and discharges, controlling coastal development to minimize sedimentation, reducing human activity on the reefs, establishing marine parks and protected areas, and increasing public awareness of the importance of coral reef conservation. Additionally, it is important to monitor changes in water temperature to prevent coral bleaching and to research and employ methods for coral reef restoration. \n\nCoral reef conservation is a pressing issue that requires urgent action from individuals, organizations, and governments. To mitigate the impacts of human activities, it is essential to implement conservation strategies now to protect these beautiful and valuable environments for generations to come."
+            }
+        ]
+    },
+    {
+        "id": "267",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nGiven a sequence of numbers, calculate the average\n\n### Input:\n1, 2, 3, 4, 5\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "3.0"
+            }
+        ]
+    },
+    {
+        "id": "268",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWhat are the important contributions of NASA to space exploration?\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "NASA has made significant contributions to space exploration over the years, such as developing the first reusable spacecraft, launching satellites that have enabled global communication, developing an extensive catalog of the universe, and robotic explorations of other planets and moons. Their research has unlocked numerous scientific discoveries, which have greatly advanced our understanding of the universe and our place in it. NASA programs have also enabled inspiring leaps for humanity, such as walking on the moon, launching robotic explorers to Mars, and enabling space travel for regular citizens."
+            }
+        ]
+    },
+    {
+        "id": "269",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite this sentence, \"She is taking a short break from practice\"\n\n### Input:\nShe is taking a short break from practice\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "She is taking a respite from her rehearsals."
+            }
+        ]
+    },
+    {
+        "id": "275",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nCome up with a creative metaphor for smile\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "A smile is like a ray of sunshine, brightening up a room and bringing joy to all."
+            }
+        ]
+    },
+    {
+        "id": "279",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nGiven the following sentence, add appropriate punctuation to make it grammatically correct.\n\n### Input:\nThe judge said guilty\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The judge said, \"Guilty.\""
+            }
+        ]
+    },
+    {
+        "id": "281",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nReword the following sentence to the past tense.\n\n### Input:\nShe is writing a novel inspired by her grandfather.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "She wrote a novel inspired by her grandfather."
+            }
+        ]
+    },
+    {
+        "id": "286",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nRewrite the following sentence in a more concise way.\n\n### Input:\nAlthough he had been studying for several hours he had not finished the task.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Despite studying for hours, he hadn't finished the task."
+            }
+        ]
+    },
+    {
+        "id": "290",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nTranslate the following sentence from English to French.\n\n### Input:\nI am happy to meet you.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Je suis heureux de te rencontrer."
+            }
+        ]
+    },
+    {
+        "id": "294",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nDetermine the longest word in the following sentence.\n\n### Input:\nIt is a wonderful sunny day.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The longest word is \"wonderful\"."
+            }
+        ]
+    },
+    {
+        "id": "299",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nDescribe the solution in detail.\n\n### Input:\nWe established a system for automatically generating data for our machine learning model.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Our system for automatically generating data for our machine learning model utilizes various techniques to create data points, including web scraping and natural language processing. The data points are then stored in a database and used as input for our machine learning model. This system enables us to generate a much larger dataset than what could be accomplished manually, decreasing the amount of time and resources needed to train the model."
+            }
+        ]
+    },
+    {
+        "id": "305",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nTranslate the given phrase from French to English.\n\n### Input:\nJe suis fatigué\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "I am tired."
+            }
+        ]
+    },
+    {
+        "id": "309",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nDraft a letter of appreciation for the given recipient.\n\n### Input:\nMr. John Smith\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Dear Mr. Smith, \n\nI would like to express my heartfelt appreciation for all that you have done for us in the past. Your efforts have contributed significantly to our success and I could not have asked for a better partner. Your wisdom and guidance were invaluable and I am thankful for your dedication and hard work.\n\nThank you once again for your help and support.\n\nSincerely,\n[Name]"
+            }
+        ]
+    },
+    {
+        "id": "310",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task, paired with an input that provides further context. Write a response that appropriately completes the request.\n\n### Instruction:\nAnalyze the given film and explain why it should be included in the top 10 list.\n\n### Input:\nThe film Parasite\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "The film Parasite is an astonishingly honest and timely exploration of economic inequality and societal class division. Through its masterful use of cinematography and well-crafted characters, it provides an enthralling and poignant insight into how wealth can divide us and how it might bring us together. It is a potent reminder that we can never forget the inequalities around us, nor take for granted the privileges we have. This deep exploration of class division and moral complexities make Parasite a must-see and worthy inclusion in any top 10 list."
+            }
+        ]
+    },
+    {
+        "id": "311",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nExplain the implications of artificial intelligence in health care.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Artificial intelligence (AI) has the potential to revolutionize the healthcare industry by enabling faster, more accurate diagnostics and treatments, along with identification of new risks and progression of diseases. AI-assisted medical devices help improve accuracy and reduce errors in diagnosis and treatment, while automation systems can process large amounts of health data to generate new insights. AI can also help to improve patient care by providing personalized recommendations and insights into health trends. Additionally, AI can be used to improve communication and efficiency between patients, doctors and healthcare providers."
+            }
+        ]
+    },
+    {
+        "id": "312",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nWrite a definition of \"photoshop\".\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "Photoshop is a photo editing software developed by Adobe that is used to improve images or create effects by manipulating and combining parts of the existing digital image. Photoshop enables users to adjust the tones, color, lighting, and texture of an image, as well as to create text, create 3D objects, add digital effects and apply filters."
+            }
+        ]
+    },
+    {
+        "id": "313",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nList five factors that lead to global warming.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "1. Burning fossil fuels such as coal, petroleum, and natural gas. \n2. Deforestation and landfills, which increases the concentration of carbon dioxide in the atmosphere. \n3. Livestock production, which increases the amount of greenhouse gases.\n4. Intensive agriculture, which produces emissions such as methane.\n5. Industry processes, which produce carbon dioxide, methane and other greenhouse gases."
+            }
+        ]
+    },
+    {
+        "id": "314",
+        "conversations": [
+            {
+                "from": "human",
+                "value": "Below is an instruction that describes a task. Write a response that appropriately completes the request.\n\n### Instruction:\nName 5 invasive species.\n\n### Response:"
+            },
+            {
+                "from": "gpt",
+                "value": "1. Zebra mussels \n2. Kudzu\n3. European green crab \n4. Brown tree snake \n5. Asian carp"
+            }
+        ]
+    }
+]
