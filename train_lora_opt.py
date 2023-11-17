@@ -135,7 +135,7 @@ def train():
         load_in_8bit=True,
         torch_dtype=torch.float16,
     )
-    # model = prepare_model_for_int8_training(model)
+    model = prepare_model_for_int8_training(model)
     lora_config = LoraConfig(
         r=lora_args.lora_r,
         lora_alpha=lora_args.lora_alpha,
