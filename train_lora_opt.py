@@ -163,7 +163,7 @@ def train():
     if torch.cuda.device_count() > 1:
         model.is_parallelizable = True
         model.model_parallel = True
-
+    print("data_args ", data_args)
     data_module = make_supervised_data_module(tokenizer=tokenizer, data_args=data_args)
     for d in data_module['train_dataset']:
         print(d)
