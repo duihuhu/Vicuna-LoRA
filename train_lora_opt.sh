@@ -17,7 +17,7 @@ deepspeed --include localhost:0 ./train_lora_opt.py \
   --learning_rate 5e-4 \
   --weight_decay 0. \
   --warmup_ratio 0.03 \
-  --lr_scheduler_type "constant" \
+  --lr_scheduler_type "cosine" \
   --logging_steps 1 \
   --tf32 False \
   --model_max_length 256 \

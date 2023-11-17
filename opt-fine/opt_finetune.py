@@ -60,9 +60,6 @@ from datasets import load_dataset
 data = load_dataset("/workspace/Vicuna-LoRA/opt-fine")
 data = data.map(lambda samples: tokenizer(samples['quote']), batched=True)
 
-for d in data['train']:
-  print(d)
-
 trainer = transformers.Trainer(
     model=model, 
     train_dataset=data['train'],
