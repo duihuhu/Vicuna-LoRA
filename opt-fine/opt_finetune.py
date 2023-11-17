@@ -15,16 +15,17 @@ tokenizer = AutoTokenizer.from_pretrained("/workspace/Sequence-Scheduling/ckpts/
 
 for param in model.parameters():
   param.requires_grad = False  # freeze the model - train adapters later
-  if param.ndim == 1:
-    # cast the small parameters (e.g. layernorm) to fp32 for stability
-    param.data = param.data.to(torch.float32)
+  # if param.ndim == 1:
+  #   # cast the small parameters (e.g. layernorm) to fp32 for stability
+  #   param.data = param.data.to(torch.float32)
 
 model.gradient_checkpointing_enable()  # reduce number of stored activations
 model.enable_input_require_grads()
 
 class CastOutputToFloat(nn.Sequential):
   def forward(self, x): return super().forward(x).to(torch.float32)
-model.lm_head = CastOutputToFloat(model.lm_head)
+  
+# model.lm_head = CastOutputToFloat(model.lm_head)
 
 def print_trainable_parameters(model):
     """
@@ -56,8 +57,11 @@ print_trainable_parameters(model)
 
 import transformers
 from datasets import load_dataset
-data = load_dataset("english_quotes.json")
+data = load_dataset("/workspace/Vicuna-LoRA/opt-fine")
 data = data.map(lambda samples: tokenizer(samples['quote']), batched=True)
+
+for d in data['train']:
+  print(d)
 
 trainer = transformers.Trainer(
     model=model, 
@@ -68,7 +72,7 @@ trainer = transformers.Trainer(
         warmup_steps=100, 
         max_steps=200, 
         learning_rate=2e-4, 
-        fp16=True,
+        fp16=False,
         logging_steps=1, 
         output_dir='outputs'
     ),
@@ -77,5 +81,5 @@ trainer = transformers.Trainer(
 model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
 trainer.train()
 
-trainer.save_state()
-model.save_pretrained("/workspace/Sequence-Scheduling/ckpts")
+# trainer.save_state()
+model.save_pretrained("outputs")
