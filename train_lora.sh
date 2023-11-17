@@ -3,7 +3,7 @@ deepspeed --include localhost:0 ./train_lora.py \
   --lora_r 8 \
   --lora_alpha 16 \
   --lora_dropout 0.05 \
-  --data_path ./dummy_conversation.json \
+  --data_path ./alpaca-train-10k-instruct_part.json \
   --bf16 False \
   --output_dir /workspace/Sequence-Scheduling/ckpts \
   --num_train_epochs 1 \
