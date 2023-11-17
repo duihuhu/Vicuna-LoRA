@@ -1,5 +1,5 @@
 deepspeed --include localhost:0 ./train_lora_opt.py \
-  --model_name_or_path /workspace/Sequence-Scheduling/ckpts/opt-125m \
+  --model_name_or_path /workspace/Sequence-Scheduling/ckpts/opt-6.7b \
   --lora_r 8 \
   --lora_alpha 16 \
   --lora_dropout 0.05 \
