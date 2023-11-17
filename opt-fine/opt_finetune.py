@@ -56,7 +56,7 @@ print_trainable_parameters(model)
 
 import transformers
 from datasets import load_dataset
-data = load_dataset("english_quotes")
+data = load_dataset("english_quotes.json")
 data = data.map(lambda samples: tokenizer(samples['quote']), batched=True)
 
 trainer = transformers.Trainer(
