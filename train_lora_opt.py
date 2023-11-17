@@ -128,7 +128,7 @@ def train():
     ddp = world_size != 1
     if ddp:
         device_map = {"": int(os.environ.get("LOCAL_RANK") or 0)}
-    model = transformers.AutoTokenizer.from_pretrained(
+    model = transformers.AutoModelForCausalLM.from_pretrained(
         model_args.model_name_or_path,
         cache_dir=training_args.cache_dir,
         device_map=device_map,
