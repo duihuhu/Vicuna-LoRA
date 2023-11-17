@@ -81,5 +81,5 @@ trainer = transformers.Trainer(
 model.config.use_cache = False  # silence the warnings. Please re-enable for inference!
 trainer.train()
 
-# trainer.save_state()
+trainer.save_state()
 model.save_pretrained("outputs")
