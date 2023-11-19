@@ -78,19 +78,19 @@ if __name__ == "__main__":
         ]
         print("outputs: ",outputs)
         
-        outputs = [int(x.strip()) for x in outputs]
-        labels_max = [x["L_max"] for x in labels]
+    #     outputs = [int(x.strip()) for x in outputs]
+    #     labels_max = [x["L_max"] for x in labels]
         
 
-        # collect results
-        all_outputs.extend(outputs)
-        gt_order_outputs.extend(labels_max)
-        d_max = [abs(x - y) for x, y in zip(outputs, labels_max)]
-        diff += sum(d_max)
-        acc_50t += sum([1 if x <= 50 else 0 for x in d_max])
-        acc_100t += sum([1 if x <= 100 else 0 for x in d_max])
+    #     # collect results
+    #     all_outputs.extend(outputs)
+    #     gt_order_outputs.extend(labels_max)
+    #     d_max = [abs(x - y) for x, y in zip(outputs, labels_max)]
+    #     diff += sum(d_max)
+    #     acc_50t += sum([1 if x <= 50 else 0 for x in d_max])
+    #     acc_100t += sum([1 if x <= 100 else 0 for x in d_max])
 
-    print(f"# Samples: {cnt}")
-    print(f"Error: {diff / cnt}")
-    print(f"Acc-50: {acc_50t / cnt}")
-    print(f"Acc-100: {acc_100t / cnt}")
+    # print(f"# Samples: {cnt}")
+    # print(f"Error: {diff / cnt}")
+    # print(f"Acc-50: {acc_50t / cnt}")
+    # print(f"Acc-100: {acc_100t / cnt}")
