@@ -1,9 +1,9 @@
 deepspeed --include localhost:0 ./train_lora_opt.py \
-  --model_name_or_path /workspace/stanford_alpaca/model \
+  --model_name_or_path /workspace/stanford_alpaca/model_125m \
   --lora_r 8 \
   --lora_alpha 16 \
   --lora_dropout 0.05 \
-  --data_path ./alpaca-train-10k-instruct_part.json \
+  --data_path /workspace/Sequence-Scheduling/data/alpaca-train-10k-instruct.json \
   --bf16 False \
   --output_dir /workspace/Sequence-Scheduling/ckpts \
   --num_train_epochs 1 \
