@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # model
     model, tokenizer = load_model(
-        "/workspace/stanford_alpaca/model",
+        "/workspace/stanford_alpaca/model_125m",
         "cuda",
         1,
         load_8bit=None,
@@ -25,7 +25,7 @@ if __name__ == "__main__":
         revision="main",
     )
     tokenizer = transformers.AutoTokenizer.from_pretrained(
-        "/workspace/stanford_alpaca/model",
+        "/workspace/stanford_alpaca/model_125m",
         model_max_length=256,
         padding_side="right",
         use_fast=False,
