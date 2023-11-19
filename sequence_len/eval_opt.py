@@ -17,7 +17,7 @@ if __name__ == "__main__":
 
     # model
     model, tokenizer = load_model(
-        "/workspace/Sequence-Scheduling/ckpts/opt-125m",
+        "/workspace/stanford_alpaca/model",
         "cuda",
         1,
         load_8bit=None,
@@ -25,7 +25,7 @@ if __name__ == "__main__":
         revision="main",
     )
     tokenizer = transformers.AutoTokenizer.from_pretrained(
-        "/workspace/Sequence-Scheduling/ckpts/opt-125m",
+        "/workspace/stanford_alpaca/model",
         model_max_length=256,
         padding_side="right",
         use_fast=False,
@@ -34,7 +34,7 @@ if __name__ == "__main__":
     tokenizer.padding_side = "left"
 
     # LORA
-    load_lora = "/workspace/Sequence-Scheduling/ckpts/lora"
+    load_lora = "/workspace/Sequence-Scheduling/ckpts/vicuna-response-length-perception-module"
     length_predictor = PeftModel.from_pretrained(
         model, load_lora, torch_dtype=torch.float16
     )
