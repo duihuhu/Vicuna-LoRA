@@ -45,7 +45,7 @@ if __name__ == "__main__":
 
     # eval
     N = 2
-    batch_size = 2
+    batch_size = 1
     cnt = 0
     all_outputs = []
     gt_order_outputs = []
